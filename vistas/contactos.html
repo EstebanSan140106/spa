@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservación</title>
+</head>
+<body style="font-size: xx-large; background-color: aquamarine;">
+    <header>
+        <img src="../imagenes/33ca3a0d-b20d-433d-a80c-19c732b1def1.webp" alt="imagen Serenity Springs Spa" width="300 px" height="315 px" style="margin-top: auto;">
+    </header>
+    <body style="background-color: rgb(151, 218, 195);">
+        <section id="Reservación">
+
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    margin: 20px;
+                }
+                select {
+                    width: 200px; /* Ancho del menú */
+                    padding: 10px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                }
+                button {
+                    padding: 10px 20px;
+                    background-color: #007BFF;
+                    color: white;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    margin-top: 10px;
+                }
+                button:hover {
+                    background-color: #0056b3;
+                }
+            </style>
+        </head>
+        <body>
+        
+            <h2></h2>
+        <form action="#" method="post">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </form>
+            <form action="#" method="post">
+                <label for="servicios">País:</label>
+                <select id="servicios" name="servicios" required>
+                    <option value="" disabled selected>Seleccione una opción por favor </option> <!-- Opción por defecto -->
+                    <option value="masage">Masajes de Relajación</option>
+                    <option value="skincare">Tratamientos Faciales</option>
+                    <option value="Exfoliacion">Exfoliaciones Corporales</option>
+                    <option value="Envoltura">Envolturas Corporales</option>
+                    <option value="Hidromasaje">Terapia de Hidromasaje</option>
+                    <option value="Aromaterapia">Terapias de Aromaterapia</option>
+                    <option value="Manicura">Manicura y Pedicura</option>
+                    <option value="Yoga">Clases de Yoga y Meditación</option>
+                </select>
+            </form>
+            <button type="submit">Enviar</button>
+            <p>
+                <a href="../index.html">Volver</a>
+            </p>
+            
+        </body>
